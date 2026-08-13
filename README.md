@@ -25,5 +25,12 @@ The project is divided into following phases:
 # Data Preprocessing 
 The original dataset contains a large number of columns, including many columns with a high percentage of missing values or information that is not required for this prediction task. The preprocessing phase includes removing unwanted columns, keeping only fully paid and charged off loans, converting the target variable to binary values (0 or 1), selecting features, filling missing numerical values and categorical values, normalising numerical features. After feature selection, 18 columns were retained, including the target variable and borrower description.
 
+# NLP and Text Processing
+The borrower 'desc' column is used for the text based part of the project. Many records do not contain a borrower description, so missing descriptions are converted to empty strings. The text preprocessing includes converting text to lowercase, removing numbers, removing punctuation, splitting text into words, removing english stop words. TF-IDF is then used to convert the cleaned borrower descriptions into numerical features. 
+
+# Feature Sets
+Three different feature sets are used in the modelling stage:
+
+
 
 
