@@ -12,13 +12,5 @@ In the project LendingClub dataset is used covering loans from 2007 to 2018. The
 
 # Project Structure 
 The project is divided into following phases:
-1. Dataset loading and cleaning
-2. Exploratory data preparation
-3. Feature selection and preprocessing
-4. Borrower text preprocessing
-5. TF-IDF feature extraction
-6. Creation of structured, text and hybrid feature sets
-7. Handling class imbalance using SMOTE
-8. Machine learning model training
-9. Model comparison and evaluation
+
 
