@@ -11,6 +11,17 @@ The goal is to see which model and which feature combination best predicts loan 
 In the project LendingClub dataset is used covering loans from 2007 to 2018. The original dataset contains approximately 2.26 million records and 151 columns. After selecting the relevant loan outcomes, the dataset contains 1,345,310 records. The target variable is loan_status, if fully paid denoted as 1 and charged off (defaulted) denoted as 0. 
 
 # Project Structure 
-The project is divided into following phases:
+The project is divided into following phases: 
+Dataset loading and cleaning
+Exploratory data preparation
+Feature selection and preprocessing
+Borrower text preprocessing
+TF-IDF feature extraction
+Creation of structured, text and hybrid feature sets
+Handling class imbalance using SMOTE
+Machine learning model training
+Model comparison and evaluation
+Further analysis and interpretation
+
 
 
