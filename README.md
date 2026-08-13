@@ -22,6 +22,8 @@ The project is divided into following phases:
 8. Machine learning model training
 9. Model comparison and evaluation
 
+# Data Preprocessing 
+The original dataset contains a large number of columns, including many columns with a high percentage of missing values or information that is not required for this prediction task. The preprocessing phase includes removing unwanted columns, keeping only fully paid and charged off loans, converting the target variable to binary values (0 or 1), selecting features, filling missing numerical values and categorical values, normalising numerical features. After feature selection, 18 columns were retained, including the target variable and borrower description.
 
 
 
