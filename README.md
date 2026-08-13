@@ -30,6 +30,12 @@ The borrower 'desc' column is used for the text based part of the project. Many 
 
 # Feature Sets
 Three different feature sets are used in the modelling stage:
+1. Structured features contains financial and borrower information from the dataset.
+2. Text features contain the TF-IDF representation of borrower descriptions.
+3. Hybrid features combine the structured features with the TF-IDF text features. This allows the performance of the models to be compared across the three approaches.
+
+# Machine Learning Models
+
 
 
 
