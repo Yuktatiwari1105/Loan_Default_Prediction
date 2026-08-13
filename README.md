@@ -35,6 +35,13 @@ Three different feature sets are used in the modelling stage:
 3. Hybrid features combine the structured features with the TF-IDF text features. This allows the performance of the models to be compared across the three approaches.
 
 # Machine Learning Models
+The following models are implemented : Logistic Regression, Random Forest and XGBoost. And each model is trained using Structured features, Text features and Hybrid features. 
+
+# Model Evaluation
+The models are evaluted using accuracy, precison, recall, f1 score.
+
+# Current Results
+The current model comparison shows that the best F1 score in the present implementation is obtained by XGBoost using the structured features. The text only models currently perform considerably worse than the structured and hybrid approaches. 
 
 
 
